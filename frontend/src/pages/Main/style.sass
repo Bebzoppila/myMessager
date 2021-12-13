@@ -1,0 +1,46 @@
+.main
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    &__menu
+        padding: 15px 0px
+        &-btn + &-btn
+            margin-left: 13px
+        &-btn
+            padding: 10px
+            cursor: pointer
+            font-size: 16px
+            color: #000
+            border-radius: 6px
+            outline: none
+            font-weight: bold
+.form
+    width: 350px
+    // height: 350px
+    background-color: #678FF2
+    border-radius: 8px
+    padding: 10px
+    &__title
+        color: #fff
+        text-align: center
+    &-item
+        display: flex
+        flex-direction: column
+        margin: 20px 0px
+        &__label
+            color: #fff
+            font-size: 20px
+            margin-bottom: 7px
+        &__input
+            border-radius: 5px
+            padding: 5px 6px
+            outline: none
+            font-size: 18px
+    &__btn
+        padding: 5px
+        width: 100%
+        cursor: pointer
+        background-color: #000000
+        color: #fff
+        font-size: 18px
